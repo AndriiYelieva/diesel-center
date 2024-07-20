@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Head.scss";
 
+import picture from "../../../../images/photos/picture.png";
+
 export const Head = () => {
   return (
     <div className="head">
@@ -10,6 +12,12 @@ export const Head = () => {
       <button className="head__button">
         Безкоштовна консультація
       </button>
+
+      <img
+        src={picture}
+        alt="injectors"
+        className="head__injectors injectors"
+      />
     </div>
   )
 }
