@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+## Disk center
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Description.
 
-## Available Scripts
+Diesel Center is a specialized website dedicated to the repair of diesel injectors of well-known brands such as Bosch, Siemens, Delphi and Denso. The site offers detailed information on services including diagnostics, repair and calibration of diesel injectors. Customers can learn about the modern technologies used in the repair, find contact details for consultations, and sign up for service online.
 
-In the project directory, you can run:
+## Demo
 
-### `npm start`
+You can view a demo version of my project at the following link: [Demo link] (https://andriiyelieva.github.io/diesel-center/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies used.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: My web application is developed using the React library, which provides me with powerful capabilities for creating interactive interfaces.
 
-### `npm test`
+- TypeScript: I use TypeScript to improve the quality of my code and make it more robust.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- JavaScript: I extend my interfaces with JavaScript to get additional functionality.
 
-### `npm run build`
+- BEM (Block Element Modifier): I use the BEM methodology to better organize and manage CSS styles.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- SCSS: I use SCSS to create stylish and well-structured styles for my application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Redux and Redux Persist: I use Redux to efficiently manage the state of my application and Redux Persist to preserve that state after a reboot.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React Router DOM: I use React Router DOM to navigate between pages and create a friendly URL structure.
 
-### `npm run eject`
+- Swiper: I use Swiper to create interactive carousels and horizontal blocks in my app.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Sources. 
+- [Build a React app] (https://create-react-app.dev/) 
+- [JSONPlaceholder API] (https://jsonplaceholder.typicode.com/)
+- [JavaScript] (https://github.com/airbnb/javascript)
+- [TypeScript] (https://www.typescriptlang.org/)
+- [i18next](https://www.i18next.com/)
+- [Sass] (https://sass-lang.com/)
