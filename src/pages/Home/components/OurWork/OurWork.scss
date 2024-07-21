@@ -1,10 +1,9 @@
-@import "../../styles/main.scss";
+@import "../../../../styles/main.scss";
 
-.services {
+.ourWork {
   margin-top: 30px;
 
   &__title {
-    // font-family: Akzidenz-Grotesk Pro;
     font-size: 20px;
     line-height: 20px;
     text-align: left;
@@ -12,19 +11,30 @@
 
   &__list {
     margin-top: 20px;
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 
   &__card {
-    background-color: $color-white-blue;
-    border-radius: 30px;
-    padding: 20px;
+    padding-bottom: 20px;
 
+    border-bottom: 0.5px solid $color-blue;
+    &--number {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      text-align: left;
+
+      color: $color-blue;
+    }
 
     &--title {
+      margin-top: 10px;
+
       font-size: 16px;
+      font-weight: 500;
       line-height: 20px;
       text-align: left;
     }
@@ -37,9 +47,6 @@
       line-height: 13px;
       text-align: left;
     }
-
-    &--image {
-      margin-top: 10px;
-    }
   }
+
 }

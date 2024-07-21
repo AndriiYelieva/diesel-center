@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Home.scss";
-import { Head } from './components';
-import { Header, Makers, Services, WhyUs } from '../../components';
+import { Diagnostics, Head, Makers, OurWork, Services, WhyUs } from './components';
+import { Header } from '../../components';
 
 export const Home = () => {
   return (
@@ -11,6 +11,8 @@ export const Home = () => {
       <Services />
       <WhyUs />
       <Makers />
+      <Diagnostics />
+      <OurWork />
     </main>
   )
 }

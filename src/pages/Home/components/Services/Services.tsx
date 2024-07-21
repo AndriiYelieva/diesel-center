@@ -1,13 +1,12 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import "./Services.scss";
-import { Button } from '../Button/Button';
+import { Link } from '../Link/Link';
 
-import picture from "../../images/photos/picture.png";
-import diagnostics from "../../images/photos/Diagnostics_of_injectors.png";
-import dismantling from "../../images/photos/Dismantling.png";
-import computerDiagnostics from "../../images/photos/Computer_diagnostics.png";
-import restoration from "../../images/photos/Restoration_of_diesel_equipment.png";
+import diagnostics from "../../../../images/photos/Diagnostics_of_injectors.png";
+import dismantling from "../../../../images/photos/Dismantling.png";
+import computerDiagnostics from "../../../../images/photos/Computer_diagnostics.png";
+import restoration from "../../../../images/photos/Restoration_of_diesel_equipment.png";
 
 const array = [
   {
@@ -49,7 +48,7 @@ export const Services = () => {
             <p className="services__card--description">
               {card.descrtiprion}
             </p>
-            <Button title="Замовити" />
+            <Link title="Замовити" />
             <img
               src={card.picture}
               alt="picture"

@@ -1,4 +1,4 @@
-@import "../../styles/main.scss";
+@import "../../../../styles/main.scss";
 
 .whyUs {
   margin-top: 30px;
@@ -26,15 +26,15 @@
     background-position: 90% 20%;
 
     &--experience {
-      background-image: url("../../images/icons/experience.svg");
+      background-image: url("../../../../images/icons/experience.svg");
     }
 
     &--time {
-      background-image: url("../../images/icons/time.svg");
+      background-image: url("../../../../images/icons/time.svg");
     }
 
     &--quality {
-      background-image: url("../../images/icons/quality.svg");
+      background-image: url("../../../../images/icons/quality.svg");
     }
 
     &--title {
